@@ -1,0 +1,94 @@
+﻿Actores que van tener contacto directo con el programa.
+
+	
+	externos - Padres de familia, - Jugadores
+	- Agente directivo
+	- Administrador*
+
+
+Requisitos Funcionales:
+ 
+- Ficha Tecnica de cada jugador:( Nombre_N, edad, fecha_Na, 							Posicon,N_Jugador,ID_ficha tecnica.)
+
+- Informacion de niños:	(nombre_N, apellido, categoria, fecha nacimiento, 			id_partido)
+
+- Insgripcion al club (informacion con la que venga )
+ 		( Nombre_P, Cedula, Telefono, Direccion, Nombre_N,Edad, 			Fecha_nacimiento, ID_Iscripcion,
+
+- Mensualidad del club (informacion con la que venga )
+
+- Entrenamiendo deportivo ( avance) 	
+
+
+*********************************************
+
+
+- Tienda virtual:
+
+productos deportivos
+inventario producto
+clientes potenciales
+
+()
+ventas()
+detalle venta()
+
+******************
+documetos q piden
+-requisitos funciomales
+-los makups en balsami 
+-prototipados 
+-la base de datos
+manula del usuario 
+
+*****************************
+
+arquitectura tecnologica 
+
+Arquitectura del software 
+se necesita para base de datos
+que lenguaje
+voy a trabjar con frenwork?
+
+
+********************************************************
+
+
+- Ficha Tecnica: Nombre, edad, fecha_Na, Posicon, N_Jugador,						ID_ficha tecnica.
+
+- Modalidad Entrenamiento: ID_modalidad_entren, ID_ficha_tecnica, 			descripcion_entrenamiento, edad_inical, 			edad_final.  
+
+- Inscripcion: Id_incripcion, Id_deportista, Id_ficha_tecnica, 				ID_modalidad_entrenamiento, valor
+
+- Deportista: Id_deportista, TI, Nombre, Apellido, 						fecha_nacimiento,edad,N_camisa.   
+
+-Mesualidad: Id_mesualidad, Id_inscripcion, fecha_pago, valor, 					ID_modalidad_entre, descripcion
+
+
+-Avance: id_deportista, ID_avance, ID_modalidad_entre, 			Descripcion_avence,
+			
+
+Relaciones:
+Ficha tencida -> Id_ficha_tecnica. modalidad entrenaminto -> ID_ficha tecnica  cardinalidad:  M:M
+
+Inscripcion ->  Id_deportista. Desportista -> Id_Deprtista M:M 
+Inscripcion -> Id_fecha_Tecnica. Ficha Tecnica -> ID_fecha tecnica M:1 
+Inscripcion -> Id_modalidad_entrenamiento. Modalidad_entre -> 		ID_modalidad_ entreamieto M:M
+
+******************************************************************************
+
+Información de los usuarios. Perfiles de Acceso* 
+Información de la misión y visión del año curso 
+Información de la misión u visión de proyecto de club
+Información de la ficha técnica de cada jugador
+Información de torneo
+Información de partidos
+Formulario de inscripción
+Formulario de contacto
+Reporte de personas Inscritas
+Reporte de contacto
+
+
+
+
+
